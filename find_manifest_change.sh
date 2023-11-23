@@ -2,12 +2,12 @@
 
 # File to be searched
 file_to_search="west.yaml"
-regex_to_match="pr/[0-9]+/head"
+regex_to_match="pr/123/head"
 
 # Function to find the last commit that modifies the specified file
 find_last_commit_for_file() {
     local file="$1"
-    
+
     # Get the commit hash of the last modification to the specified file
     local commit_hash=$(git log -1 --pretty=format:"%H" -- "$file")
 
