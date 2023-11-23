@@ -2,7 +2,7 @@
 
 # File to be searched
 file_to_search="west.yaml"
-regex_to_match="pr/123/head"
+regex_to_match="pr\/[0-9]+\/head"
 
 # Function to find the last commit that modifies the specified file
 find_last_commit_for_file() {
