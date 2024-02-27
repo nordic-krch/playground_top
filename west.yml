@@ -45,7 +45,7 @@ manifest:
     - name: sub2
       repo-path: playground-sub2
       path: modules/sub2
-      revision: 60fdc1c201a47ff6f164d29a41be9cc5a9f609bf
+      revision: pull/1/head
 
   # West-related configuration for the nrf repository.
   self:
